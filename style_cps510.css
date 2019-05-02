@@ -1,0 +1,122 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+div.card {
+  width: 70%;
+  padding: 70px 70px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+  background: #fff;
+  box-shadow: -3px 3px 40px 1px #C0C0C0;
+}
+
+.space {
+  padding-top: 100px;
+  padding-bottom: 85px
+}
+
+.smallspace {
+  padding-top: 50px;
+  padding-bottom: 45px
+}
+
+body {  min-width:1300px; }
+
+img.title {
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 65%);
+}
+
+img.bottom {
+  clip-path: polygon( 0% 60%, 100% 40%, 100% 100%, 0 100%);
+}
+
+.relative {
+    position: relative;
+}
+
+/* center text*/
+.text-block {
+  left: 50%;
+  position: absolute;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.text-block-bottom {
+  left: 50%;
+  position: absolute;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.text-block-lower {
+  left: 50%;
+  position: absolute;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+h1.title {
+  color: white;
+  text-align: center;
+  font-family: "Arial Black", sans-serif;
+  font-size: 5em;
+  text-shadow: 0px 0px 1px rgba(6,0,0,0.9);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-family: "Consolas", sans-serif;
+  font-size: 4em;
+  text-shadow: -3px 3px 4px rgba(0,0,0,0.3);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: "Arial Black", sans-serif;
+  font-size: 3em;
+  text-shadow: 0px 0px 1px rgba(6,0,0,0.2);
+}
+
+h3 {
+  color: black;
+  font-family: "Arial Black", sans-serif;
+  font-size: 2em;
+}
+
+h4 {
+  color: black;
+  text-align: center;
+  font-family: "Arial Black", sans-serif;
+  font-size: 1.5em;
+}
+
+h4.credits {
+  color: white;
+  text-align: center;
+  font-family: "Arial Black", sans-serif;
+  font-size: 2em;
+  text-shadow: 0px 0px 3px rgba(250,250,250,0.7);
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    background-color: #fbfbfb;
+    width: 100%;
+}
+
+table th {
+    background-color: #0066A2;
+    color: white;
+}
